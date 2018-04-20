@@ -1,0 +1,171 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SHELTER EASE</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body data-spy="scroll" data-target="#mynavBar">
+     <!--Add video to the body element-->
+    
+      
+      <!--Create navigation bar with scrollspy-->
+      <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavBar">
+        
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand">SHELTER EASE</a>
+                  <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                      <span class="sr-only">Toggle navigation</span>      
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+              </div>
+              <div class="navbar-collapse collapse" id="navbarCollapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a href="#home">Home</a></li>
+                      <li><a href="http://google.com">Login</a></li>
+                      <li><a href="http://google.com">FAQ</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+      <!--Create the home section with title, goal and joins us button-->
+      <div class="jumbotron" id="home" height="1000px">
+          <div class="container">
+		      <img src="images/s.png" class="aboutImage" height="700px" width="200px">
+             
+              <font color="red"><h3>FIND YOUR HOME AWAY FROM HOME</h3></font>
+              <p><a class="btn" href="http://google.com">Join us Now!</a></p>
+          </div>
+      </div>
+      
+      <!--Create about section showing course details using grid system-->
+      <div id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="images/download.png" class="aboutImage">
+                      <h2>Search</h2>
+                      <font color="red"><p>Find a place that is suitable for you.</p></font>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/te.png" class="aboutImage">
+                      <h2>Book</h2>
+                      <font color="red"><p>Finalise a time and date to visit the homes you like.<br>
+					  Pay a token amount online to lock the bed / room .</p></font>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/hom.jpg" class="aboutImage">
+                      <h2>Move in</h2>
+                      <font color="red"><p>Choose a move-in date and just show up!</p></font>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!--Create Carousel-->
+      <div id="promise" class="container-fluid">
+          <div class="carousel slide" id="myCarousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="1">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="2">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="3">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="4">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="5">
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="6">
+                  </li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="images/pg.jpg">
+                      <div class="carousel-caption">
+                          <h2>Find Rooms nearby you.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/save.jpg">
+                      <div class="carousel-caption">
+                          <h2>low cost</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/wo.jpg">
+                      <div class="carousel-caption">
+                          <h2>You will find comfortable rooms.</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/meet.jpg">
+                      <div class="carousel-caption">
+                          <h2>A Meeting with owner</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/2140.png">
+                      <div class="carousel-caption">
+                          <h2>A Meeting with Roomates</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/int.jpg">
+                      <div class="carousel-caption">
+                          <h2>Customise plan</h2>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="images/ma.jpg">
+                      <div class="carousel-caption">
+                          <h2>No brokerage</h2>
+                      </div>
+                  </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+              
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Previous</span>
+              
+              </a>
+          </div>
+      </div>
+      <!--Add a footer for our website-->
+      <div class="footer">
+          <div class="container">
+              <font color="red"><p>&copy;FIND YOUR SHELTER</p></font>
+          </div>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script>
+          $(function(){
+                $('.carousel').carousel({
+                    interval: 10000
+                }); 
+          });
+      </script>
+  </body>
+</html>
